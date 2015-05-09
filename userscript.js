@@ -114,4 +114,7 @@ function sendNotification(title, message)
   //}
 }
 
+jQuery(document).ready(function () { 
+    window.jakdojade_userScripts_checkTimer();
+});
 window.setInterval(window.jakdojade_userScripts_checkTimer, 10000);
